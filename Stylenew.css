@@ -348,4 +348,34 @@ footer:hover {
 }
 
 /* JS will add 'visible' class when entries scroll into view */
+.buttons-section .button-wrapper {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+/* Project Buttons */
+.project-btn {
+  display: inline-block;
+  padding: 0.7rem 1.4rem;
+  font-family: "Source Code Pro", monospace;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  background-color: #3b82f6; /* same blue as accents */
+  border-radius: 8px;
+  border: 2px solid #3b82f6;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.project-btn:hover {
+  background-color: #2563eb; /* slightly darker blue on hover */
+  border-color: #2563eb;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
 
