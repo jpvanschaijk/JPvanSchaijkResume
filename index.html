@@ -35,10 +35,8 @@
   <!-- ================= SUMMARY ================= -->
   <section class="container">
     <h2 data-i18n="summary_title">Summary</h2>
-    <article class="entry">
-      <p data-i18n="summary_text">
-        Results-driven organic chemist with experience in applied research, process optimization, and analytical problem solving. Skilled in translating complex chemical challenges into practical, scalable solutions within multidisciplinary environments. Experienced in both academic and industrial settings, with a strong focus on efficiency, innovation, and delivering measurable outcomes. Passionate about applying scientific expertise to real-world industrial applications.
-      </p>
+    <article class="entry" data-i18n="summary_text">
+      Results-driven organic chemist with experience in applied research, process optimization, and analytical problem solving. Skilled in translating complex chemical challenges into practical, scalable solutions within multidisciplinary environments. Experienced in both academic and industrial settings, with a strong focus on efficiency, innovation, and delivering measurable outcomes. Passionate about applying scientific expertise to real-world industrial applications.
     </article>
   </section>
 
@@ -139,13 +137,21 @@
   <hr>
 
   <!-- ================= SKILLS ================= -->
-  <section class="container">
+  <section class="container skills">
     <h2 data-i18n="skills">Skills</h2>
 
-    <article class="entry"><p data-i18n="chemistry">Organic Chemistry, Spectroscopy (NMR, IR, LC-MS, GC-MS), Cyclic Voltammetry, Academic Writing, Critical Thinking.</p></article>
-    <article class="entry"><p data-i18n="programming">Full-Stack Web Development, React, Node.js, SQL, Git, APIs</p></article>
-    <article class="entry"><p data-i18n="languages">Dutch (Native), English (Native), Papiamento (Native), Spanish (Intermediate)</p></article>
-    <article class="entry"><p data-i18n="hobbies">Surfboard Building, Cooking, Fermentation, Beer Brewing, Permaculture, Mycology</p></article>
+    <article class="entry">
+      <p data-i18n="chemistry">Organic Chemistry, Spectroscopy (NMR, IR, LC-MS, GC-MS), Cyclic Voltammetry, Academic Writing, Critical Thinking.</p>
+    </article>
+    <article class="entry">
+      <p data-i18n="programming">Full-Stack Web Development, React, Node.js, SQL, Git, APIs</p>
+    </article>
+    <article class="entry">
+      <p data-i18n="languages">Dutch (Native), English (Native), Papiamento (Native), Spanish (Intermediate)</p>
+    </article>
+    <article class="entry">
+      <p data-i18n="hobbies">Surfboard Building, Cooking, Fermentation, Beer Brewing, Permaculture, Mycology</p>
+    </article>
   </section>
 
   <footer>
@@ -320,7 +326,7 @@ document.querySelectorAll(".lang-switch button").forEach(button => {
     if (translations[lang]) {
       document.querySelectorAll("[data-i18n]").forEach(el => {
         const key = el.dataset.i18n;
-        el.textContent = translations[lang][key];
+        if(translations[lang][key]) el.textContent = translations[lang][key];
       });
       document.querySelectorAll(".lang-switch button").forEach(btn => btn.classList.remove("active"));
       button.classList.add("active");
@@ -328,8 +334,22 @@ document.querySelectorAll(".lang-switch button").forEach(button => {
   });
 });
 
-// Initialize in English on load
+// Initialize in English
 setTimeout(() => document.querySelector(".lang-switch button[data-lang='en']").click(), 0);
+
+/* =========================
+   Scroll Animation
+========================= */
+const entries = document.querySelectorAll('.entry');
+const observer = new IntersectionObserver((entriesList) => {
+  entriesList.forEach(entry => {
+    if(entry.isIntersecting) {
+      entry.target.classList.add('visible');
+    }
+  });
+}, { threshold: 0.15 });
+
+entries.forEach(entry => observer.observe(entry));
 </script>
 
 </body>
