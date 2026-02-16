@@ -4,178 +4,173 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Jurgen Patrick van Schaijk – Organic Chemist & Researcher" />
-
   <title>Jurgen Patrick van Schaijk</title>
 
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Source+Code+Pro:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="Stylenew.css" />
 </head>
 
 <body>
-  <main class="resume">
+<main class="resume">
 
-    <!-- HEADER -->
-    <header class="resume-header">
+  <!-- ================= HEADER ================= -->
+  <header class="resume-header">
     <h1><span class="last">van Schaijk,</span> <span class="first">Jurgen Patrick</span></h1>
-    <div class="role">Organic Chemist • Researcher</div>
+    <div class="role" data-i18n="role">Organic Chemist • Researcher</div>
 
-    <!-- Language Buttons -->
     <div class="lang-switch">
-        <button class="active" onclick="setLanguage('en')">EN</button>
-        <button onclick="setLanguage('nl')">NL</button>
-        <button onclick="setLanguage('es')">ES</button>
+      <button class="active" data-lang="en">EN</button>
+      <button data-lang="nl">NL</button>
+      <button data-lang="es">ES</button>
     </div>
 
-    <!-- Contact Info -->
     <ul class="contact">
-        <li><img src="images/linkedin.png" alt="LinkedIn"> <a href="https://www.linkedin.com/in/jurgen-van-schaijk-8b1560110/">LinkedIn</a></li>
-        <li><img src="images/email.png" alt="Email"> <a href="mailto:jpvanschaijk@gmail.com">jpvanschaijk@gmail.com</a></li>
-        <li><img src="images/phone.svg" alt="Phone"> <a href="tel:+31623335992">+31 6 2333 5992</a></li>
+      <li><img src="images/linkedin.png" alt="LinkedIn"><a href="https://www.linkedin.com/in/jurgen-van-schaijk-8b1560110/" target="_blank">LinkedIn</a></li>
+      <li><img src="images/email.png" alt="Email"><a href="mailto:jpvanschaijk@gmail.com">jpvanschaijk@gmail.com</a></li>
+      <li><img src="images/phone.svg" alt="Phone"><a href="tel:+31623335992">+31 6 2333 5992</a></li>
     </ul>
-</header>
+  </header>
 
+  <!-- ================= SUMMARY ================= -->
+  <section class="container">
+    <h2 data-i18n="summary_title">Summary</h2>
+    <article class="entry">
+      <p data-i18n="summary_text">
+        Results-driven organic chemist with experience in applied research, process optimization, and analytical problem solving. Skilled in translating complex chemical challenges into practical, scalable solutions within multidisciplinary environments. Experienced in both academic and industrial settings, with a strong focus on efficiency, innovation, and delivering measurable outcomes. Passionate about applying scientific expertise to real-world industrial applications.
+      </p>
+    </article>
+  </section>
 
-  <!-- EXPERIENCE -->
-<section class="container">
-  <h2 data-i18n="experience">Experience</h2>
+  <hr>
 
-  <!-- Sabbatical -->
-  <article class="entry">
-    <div class="entry-header">
-      <h3 data-i18n="sabbatical_title">Sabbatical / Independent Work & Travel</h3>
-      <span class="meta" data-i18n="sabbatical_location">Australia • Oct 2023 – Sep 2025</span>
-    </div>
-    <ul>
-      <li data-i18n="sabbatical_desc1">Explored regional and urban Australia, gaining cross-cultural insights.</li>
-      <li data-i18n="sabbatical_desc2">Worked across various fields in semi-remote regions: Coffee Roasting, Cattle Farm Labour, Chef at Stick Bar.</li>
-      <li data-i18n="sabbatical_desc3">Self-directed learning in Full Stack Web Developement, app design, mycoculture, and distillation.</li>
-      <li data-i18n="sabbatical_desc4">Developed alcohol-free spirit alternatives.</li>
-    </ul>
-  </article>
+  <!-- ================= EXPERIENCE ================= -->
+  <section class="container">
+    <h2 data-i18n="experience">Experience</h2>
 
-  <!-- Researcher Powall -->
-  <article class="entry">
-    <div class="entry-header">
-      <h3 data-i18n="researcher_title">Researcher — Powall</h3>
-      <span class="meta" data-i18n="researcher_location">Delft, NL • Jan 2022 – Sep 2023</span>
-    </div>
-    <ul>
-      <li data-i18n="researcher_desc1">R&D on atomic layer deposition coatings for energy applications.</li>
-      <li data-i18n="researcher_desc2">Executed experiments across multiple research projects.</li>
-      <li data-i18n="researcher_desc3">Trained interns and onboarded new colleagues.</li>
-    </ul>
-  </article>
+    <article class="entry">
+      <div class="entry-header">
+        <h3 data-i18n="sabbatical_title">Sabbatical / Independent Travel</h3>
+        <span class="meta" data-i18n="sabbatical_location">Australia • Oct 2023 – Sep 2025</span>
+      </div>
+      <ul>
+        <li data-i18n="sabbatical_desc1">Explored regional and urban Australia, gaining cross-cultural insights.</li>
+        <li data-i18n="sabbatical_desc2">Worked in coffee roasting, cattle farming, and as a chef.</li>
+        <li data-i18n="sabbatical_desc3">Self-directed learning in full-stack development, app design, mycoculture, and distillation.</li>
+        <li data-i18n="sabbatical_desc4">Developed alcohol-free spirit alternatives.</li>
+      </ul>
+    </article>
 
-  <!-- Research Intern VU -->
-  <article class="entry">
-    <div class="entry-header">
-      <h3 data-i18n="research_intern_vu_title">Research Intern — Vrije Universiteit Amsterdam</h3>
-      <span class="meta" data-i18n="research_intern_vu_location">Amsterdam, NL • Aug 2019 – Aug 2020</span>
-    </div>
-    <ul>
-      <li data-i18n="research_intern_vu_desc1">Research internship on the total synthesis of (-)Perophoramidine.</li>
-    </ul>
-  </article>
+    <article class="entry">
+      <div class="entry-header">
+        <h3 data-i18n="researcher_title">Researcher — Powall</h3>
+        <span class="meta" data-i18n="researcher_location">Delft, NL • Jan 2022 – Sep 2023</span>
+      </div>
+      <ul>
+        <li data-i18n="researcher_desc1">R&D on atomic layer deposition coatings for energy applications.</li>
+        <li data-i18n="researcher_desc2">Executed experiments across multiple research projects.</li>
+        <li data-i18n="researcher_desc3">Trained interns and onboarded new colleagues.</li>
+      </ul>
+    </article>
 
-  <!-- Research Intern AkzoNobel -->
-  <article class="entry">
-    <div class="entry-header">
-      <h3 data-i18n="research_intern_akzo_title">Research Intern — AkzoNobel</h3>
-      <span class="meta" data-i18n="research_intern_akzo_location">Sassenheim, NL • Aug 2016 – Aug 2017</span>
-    </div>
-    <ul>
-      <li data-i18n="research_intern_akzo_desc1">Synthesis of thixotropic alkyd resins.</li>
-      <li data-i18n="research_intern_akzo_desc2">Studied factors influencing resin rheology.</li>
-      <li data-i18n="research_intern_akzo_desc3">Developed alternative drop-in resins for paint formulation.</li>
-    </ul>
-  </article>
+    <article class="entry">
+      <div class="entry-header">
+        <h3 data-i18n="research_intern_vu_title">Research Intern — Vrije Universiteit Amsterdam</h3>
+        <span class="meta" data-i18n="research_intern_vu_location">Amsterdam, NL • Aug 2019 – Aug 2020</span>
+      </div>
+      <ul>
+        <li data-i18n="research_intern_vu_desc1">Research on the total synthesis of (-)Perophoramidine.</li>
+        <li data-i18n="research_intern_vu_desc2">Focused on cascade reactions for cyclic system formation.</li>
+      </ul>
+    </article>
 
-  <!-- Research Intern Bunz -->
-  <article class="entry">
-    <div class="entry-header">
-      <h3 data-i18n="research_intern_bunz_title">Research Intern — Bunz Group, Heidelberg University</h3>
-      <span class="meta" data-i18n="research_intern_bunz_location">Heidelberg, Germany • Jan 2023 – Apr 2023</span>
-    </div>
-    <ul>
-      <li data-i18n="research_intern_bunz_desc1">Synthesized various N-Heteroacenes for electron transport materials.</li>
-    </ul>
-  </article>
-</section>
+    <article class="entry">
+      <div class="entry-header">
+        <h3 data-i18n="research_intern_akzo_title">Research Intern — AkzoNobel</h3>
+        <span class="meta" data-i18n="research_intern_akzo_location">Sassenheim, NL • Aug 2016 – Aug 2017</span>
+      </div>
+      <ul>
+        <li data-i18n="research_intern_akzo_desc1">Synthesis of thixotropic alkyd resins.</li>
+        <li data-i18n="research_intern_akzo_desc2">Studied factors influencing resin rheology.</li>
+        <li data-i18n="research_intern_akzo_desc3">Developed alternative drop-in resins.</li>
+        <li data-i18n="research_intern_akzo_desc4">One formulation was scaled up for commercial production.</li>
+      </ul>
+    </article>
 
-<hr>
+    <article class="entry">
+      <div class="entry-header">
+        <h3 data-i18n="research_intern_bunz_title">Research Intern — Bunz Group, Heidelberg University</h3>
+        <span class="meta" data-i18n="research_intern_bunz_location">Heidelberg, Germany • Jan 2023 – Apr 2023</span>
+      </div>
+      <ul>
+        <li data-i18n="research_intern_bunz_desc1">Synthesized N-Heteroacenes for electron transport materials.</li>
+      </ul>
+    </article>
+  </section>
 
-<!-- EDUCATION -->
-<section class="container">
-  <h2 data-i18n="education">Education</h2>
+  <hr>
 
-  <!-- MSc -->
-  <article class="entry">
-    <div class="entry-header">
-      <h3 data-i18n="msc_title">MSc Organic Chemistry / Molecular Design</h3>
-      <span class="meta" data-i18n="msc_location">University of Amsterdam • Amsterdam, NL • Feb 2018 – Jul 2021</span>
-    </div>
-  </article>
+  <!-- ================= EDUCATION ================= -->
+  <section class="container">
+    <h2 data-i18n="education">Education</h2>
 
-  <!-- BSc -->
-  <article class="entry">
-    <div class="entry-header">
-      <h3 data-i18n="bsc_title">BSc Chemistry</h3>
-      <span class="meta" data-i18n="bsc_location">Leiden University of Applied Sciences • Leiden, NL • Sept 2013 – Jun 2017</span>
-    </div>
-  </article>
+    <article class="entry">
+      <div class="entry-header">
+        <h3 data-i18n="msc_title">MSc Organic Chemistry / Molecular Design</h3>
+        <span class="meta" data-i18n="msc_location">University of Amsterdam • 2018 – 2021</span>
+      </div>
+    </article>
 
-  <!-- Propedeuse -->
-  <article class="entry">
-    <div class="entry-header">
-      <h3 data-i18n="propedeuse_title">Propedeuse Finance & Economics </h3>
-      <span class="meta" data-i18n="propedeuse_location">University of Aruba • Oranjestad, Aruba • Sept 2012 – Jun 2013</span>
-    </div>
-  </article>
-</section>
+    <article class="entry">
+      <div class="entry-header">
+        <h3 data-i18n="bsc_title">BSc Chemistry</h3>
+        <span class="meta" data-i18n="bsc_location">Leiden University of Applied Sciences • 2013 – 2017</span>
+      </div>
+    </article>
 
-<hr>
+    <article class="entry">
+      <div class="entry-header">
+        <h3 data-i18n="propedeuse_title">Propedeuse Finance & Economics</h3>
+        <span class="meta" data-i18n="propedeuse_location">University of Aruba • 2012 – 2013</span>
+      </div>
+    </article>
+  </section>
 
-<!-- SKILLS -->
-<section class="container">
-  <h2 data-i18n="skills">Skills</h2>
+  <hr>
 
-  <article class="entry">
-    <h3 data-i18n="programming">Front-End & Back-End Web Development, React, Node.js, SQL, Git, APIs</h3>
-  </article>
+  <!-- ================= SKILLS ================= -->
+  <section class="container">
+    <h2 data-i18n="skills">Skills</h2>
 
-  <article class="entry">
-    <h3 data-i18n="languages">Dutch (Native), English (Native), Papiamento (Native), Spanish (Intermediate)</h3>
-  </article>
+    <article class="entry"><p data-i18n="chemistry">Organic Chemistry, Spectroscopy (NMR, IR, LC-MS, GC-MS), Cyclic Voltammetry, Academic Writing, Critical Thinking.</p></article>
+    <article class="entry"><p data-i18n="programming">Full-Stack Web Development, React, Node.js, SQL, Git, APIs</p></article>
+    <article class="entry"><p data-i18n="languages">Dutch (Native), English (Native), Papiamento (Native), Spanish (Intermediate)</p></article>
+    <article class="entry"><p data-i18n="hobbies">Surfboard Building, Cooking, Fermentation, Beer Brewing, Permaculture, Mycology</p></article>
+  </section>
 
-  <article class="entry">
-    <h3 data-i18n="hobbies">Surfboard building, Cooking, Fermentation, Beer Brewing, Koji Fermentation, Permaculture, Mycology</h3>
-  </article>
-</section>
-</section>
+  <footer>
+    <p>© 2026 Jurgen Patrick van Schaijk</p>
+  </footer>
 
+</main>
 
-
-    <footer>
-      <p>Created by Jurgen Patrick van Schaijk — 2026</p>
-    </footer>
-
-  </main>
-  <script>
+<script>
 const translations = {
   en: {
-    // Header / Role
     role: "Organic Chemist • Researcher",
 
-    // Sections
+    summary_title: "Summary",
+summary_text: "Results-driven organic chemist with experience in applied research, process optimization, and analytical problem solving. Skilled in translating complex chemical challenges into practical, scalable solutions within multidisciplinary environments. Experienced in both academic and industrial settings, with a strong focus on efficiency, innovation, and delivering measurable outcomes. Passionate about applying scientific expertise to real-world industrial applications.",
+
     experience: "Experience",
     education: "Education",
     skills: "Skills",
 
-    // Experience Entries
     sabbatical_title: "Sabbatical / Independent Travel",
     sabbatical_location: "Australia • Oct 2023 – Sep 2025",
     sabbatical_desc1: "Explored regional and urban Australia, gaining cross-cultural insights.",
-    sabbatical_desc2: "Worked across various fields in semi-remote regions: Coffee Roasting, Cattle Farm Labour, Chef at Stick Bar.",
-    sabbatical_desc3: "Self-directed learning in Full Stack Web Developement, app design, mycoculture, and distillation.",
+    sabbatical_desc2: "Worked in coffee roasting, cattle farming, and as a chef.",
+    sabbatical_desc3: "Self-directed learning in full-stack development, app design, mycoculture, and distillation.",
     sabbatical_desc4: "Developed alcohol-free spirit alternatives.",
 
     researcher_title: "Researcher — Powall",
@@ -186,154 +181,156 @@ const translations = {
 
     research_intern_vu_title: "Research Intern — Vrije Universiteit Amsterdam",
     research_intern_vu_location: "Amsterdam, NL • Aug 2019 – Aug 2020",
-    research_intern_vu_desc1: "Research internship on the total synthesis of (-)Perophoramidine.",
+    research_intern_vu_desc1: "Research on the total synthesis of (-)Perophoramidine.",
+    research_intern_vu_desc2: "Focused on cascade reactions for cyclic system formation.",
 
     research_intern_akzo_title: "Research Intern — AkzoNobel",
     research_intern_akzo_location: "Sassenheim, NL • Aug 2016 – Aug 2017",
     research_intern_akzo_desc1: "Synthesis of thixotropic alkyd resins.",
     research_intern_akzo_desc2: "Studied factors influencing resin rheology.",
-    research_intern_akzo_desc3: "Developed alternative drop-in resins for paint formulation.",
+    research_intern_akzo_desc3: "Developed alternative drop-in resins.",
+    research_intern_akzo_desc4: "One formulation was scaled up for commercial production.",
 
     research_intern_bunz_title: "Research Intern — Bunz Group, Heidelberg University",
     research_intern_bunz_location: "Heidelberg, Germany • Jan 2023 – Apr 2023",
-    research_intern_bunz_desc1: "Synthesized various N-Heteroacenes for electron transport materials.",
+    research_intern_bunz_desc1: "Synthesized N-Heteroacenes for electron transport materials.",
 
-    // Education Entries
     msc_title: "MSc Organic Chemistry / Molecular Design",
-    msc_location: "University of Amsterdam • Amsterdam, NL • Feb 2018 – Jul 2021",
+    msc_location: "University of Amsterdam • 2018 – 2021",
     bsc_title: "BSc Chemistry",
-    bsc_location: "Leiden University of Applied Sciences • Leiden, NL • Sept 2013 – Jun 2017",
-    propedeuse_title: "Propedeuse University of Aruba",
-    propedeuse_location: "Oranjestad, Aruba • Sept 2012 – Jun 2013",
+    bsc_location: "Leiden University of Applied Sciences • 2013 – 2017",
+    propedeuse_title: "Propedeuse Finance & Economics",
+    propedeuse_location: "University of Aruba • 2012 – 2013",
 
-    // Skills
-    programming: "Front-End & Back-End Web Development, React, Node.js, SQL, Git, APIs",
+    chemistry: "Organic Chemistry, Spectroscopy (NMR, IR, LC-MS, GC-MS), Cyclic Voltammetry, Academic Writing, Critical Thinking.",
+    programming: "Full-Stack Web Development, React, Node.js, SQL, Git, APIs",
     languages: "Dutch (Native), English (Native), Papiamento (Native), Spanish (Intermediate)",
-    hobbies: "Surfboard building, Cooking, Fermentation, Beer Brewing, Koji Fermentation, Permaculture, Mycology"
+    hobbies: "Surfboard Building, Cooking, Fermentation, Beer Brewing, Permaculture, Mycology"
   },
 
   nl: {
     role: "Organisch Chemicus • Onderzoeker",
+
+    summary_title: "Samenvatting",
+summary_text: "Resultaatgerichte organisch chemicus met ervaring in toegepast onderzoek, procesoptimalisatie en analytische probleemoplossing. Sterk in het vertalen van complexe chemische vraagstukken naar praktische en schaalbare oplossingen binnen multidisciplinaire omgevingen. Ervaring in zowel academische als industriële context, met focus op efficiëntie, innovatie en het realiseren van meetbare resultaten. Gedreven om wetenschappelijke expertise toe te passen op industriële toepassingen.",
+
     experience: "Werkervaring",
     education: "Opleiding",
     skills: "Vaardigheden",
 
     sabbatical_title: "Sabbatical / Onafhankelijke Reizen",
     sabbatical_location: "Australië • Okt 2023 – Sep 2025",
-    sabbatical_desc1: "Verkenning van stedelijke en landelijke Australië, met culturele inzichten.",
-    sabbatical_desc2: "Werkzaam geweest in diverse sectoren in semi-afgelegen gebieden: koffiebranderij, veehouderij, chef-kok in een bar.",
-    sabbatical_desc3: "Zelfstudie in Full Stack Webontwikkeling, app-ontwerp, mycocultuur en distillatie.",
-    sabbatical_desc4: "Ontwikkelde alcoholvrije spirit-alternatieven.",
+    sabbatical_desc1: "Verkenning van stedelijk en regionaal Australië met interculturele inzichten.",
+    sabbatical_desc2: "Werkzaam in koffiebranderij, veehouderij en als chef-kok.",
+    sabbatical_desc3: "Zelfstudie in full-stack webontwikkeling, app-ontwerp, mycocultuur en distillatie.",
+    sabbatical_desc4: "Ontwikkeling van alcoholvrije spirit-alternatieven.",
 
     researcher_title: "Onderzoeker — Powall",
     researcher_location: "Delft, NL • Jan 2022 – Sep 2023",
-    researcher_desc1: "R&D aan atomic layer deposition coatings voor energie toepassingen.",
-    researcher_desc2: "Uitvoering van experimenten in meerdere onderzoeksprojecten.",
-    researcher_desc3: "Opleiden van stagiaires en inwerken van nieuwe collega's.",
+    researcher_desc1: "R&D aan atomic layer deposition coatings voor energietoepassingen.",
+    researcher_desc2: "Uitvoering van experimenten binnen meerdere onderzoeksprojecten.",
+    researcher_desc3: "Begeleiding van stagiaires en inwerken van nieuwe collega's.",
 
-    research_intern_vu_title: "Stagiair Onderzoek — Vrije Universiteit Amsterdam",
+    research_intern_vu_title: "Onderzoeksstage — Vrije Universiteit Amsterdam",
     research_intern_vu_location: "Amsterdam, NL • Aug 2019 – Aug 2020",
-    research_intern_vu_desc1: "Stage gericht op de totale synthese van (-)Perophoramidine.",
+    research_intern_vu_desc1: "Onderzoek naar de totale synthese van (-)Perophoramidine.",
+    research_intern_vu_desc2: "Focus op cascade-reacties bij vorming van cyclische systemen.",
 
-    research_intern_akzo_title: "Stagiair Onderzoek — AkzoNobel",
+    research_intern_akzo_title: "Onderzoeksstage — AkzoNobel",
     research_intern_akzo_location: "Sassenheim, NL • Aug 2016 – Aug 2017",
     research_intern_akzo_desc1: "Synthese van thixotrope alkydharsen.",
-    research_intern_akzo_desc2: "Onderzoek naar factoren die rheologie beïnvloeden.",
-    research_intern_akzo_desc3: "Ontwikkeling van alternatieve harsen voor verfformulering.",
+    research_intern_akzo_desc2: "Analyse van factoren die de rheologie beïnvloeden.",
+    research_intern_akzo_desc3: "Ontwikkeling van alternatieve harsformuleringen.",
+    research_intern_akzo_desc4: "Eén formulering opgeschaald naar commerciële productie.",
 
-    research_intern_bunz_title: "Stagiair Onderzoek — Bunz Group, Heidelberg Universiteit",
+    research_intern_bunz_title: "Onderzoeksstage — Bunz Group, Universiteit Heidelberg",
     research_intern_bunz_location: "Heidelberg, Duitsland • Jan 2023 – Apr 2023",
-    research_intern_bunz_desc1: "Synthese van diverse N-Heteroacenes voor elektronentransportmaterialen.",
+    research_intern_bunz_desc1: "Synthese van N-Heteroacenen voor elektronentransportmaterialen.",
 
     msc_title: "MSc Organische Chemie / Moleculair Ontwerp",
-    msc_location: "Universiteit van Amsterdam • Amsterdam, NL • Feb 2018 – Jul 2021",
+    msc_location: "Universiteit van Amsterdam • 2018 – 2021",
     bsc_title: "BSc Chemie",
-    bsc_location: "Hogeschool Leiden • Leiden, NL • Sept 2013 – Jun 2017",
-    propedeuse_title: "Propedeuse Universiteit van Aruba",
-    propedeuse_location: "Oranjestad, Aruba • Sept 2012 – Jun 2013",
+    bsc_location: "Hogeschool Leiden • 2013 – 2017",
+    propedeuse_title: "Propedeuse Finance & Economics",
+    propedeuse_location: "Universiteit van Aruba • 2012 – 2013",
 
-    programming: "Front-End & Back-End Webontwikkeling, React, Node.js, SQL, Git, API's",
+    chemistry: "Organische Chemie, Spectroscopie (NMR, IR, LC-MS, GC-MS), Cyclische Voltammetrie, Academisch Schrijven, Kritisch Denken.",
+    programming: "Full-Stack Webontwikkeling, React, Node.js, SQL, Git, API's",
     languages: "Nederlands (Moedertaal), Engels (Moedertaal), Papiamento (Moedertaal), Spaans (Gemiddeld)",
-    hobbies: "Surfboard bouwen, Koken, Fermentatie, Bierbrouwen, Koji fermentatie, Permacultuur, Mycologie"
+    hobbies: "Surfboard bouwen, Koken, Fermentatie, Bierbrouwen, Permacultuur, Mycologie"
   },
 
   es: {
     role: "Químico Orgánico • Investigador",
+
+    summary_title: "Resumen",
+summary_text: 
+"Químico orgánico orientado a resultados con experiencia en investigación aplicada, optimización de procesos y resolución analítica de problemas. Capaz de transformar desafíos químicos complejos en soluciones prácticas y escalables dentro de entornos multidisciplinarios. Experiencia tanto en contextos académicos como industriales, con enfoque en eficiencia, innovación y obtención de resultados medibles. Motivado por aplicar conocimientos científicos a aplicaciones industriales reales.",
+
     experience: "Experiencia",
     education: "Educación",
     skills: "Habilidades",
 
     sabbatical_title: "Sabbatical / Viaje Independiente",
     sabbatical_location: "Australia • Oct 2023 – Sep 2025",
-    sabbatical_desc1: "Exploración de Australia urbana y regional, obteniendo conocimientos interculturales.",
-    sabbatical_desc2: "Trabajó en varios campos en regiones semi-remotas: tostado de café, trabajo en granjas de ganado, chef en Stick Bar.",
-    sabbatical_desc3: "Aprendizaje autodidacta en Desarrollo web full stack, diseño de apps, micocultura y destilación.",
-    sabbatical_desc4: "Desarrolló alternativas de bebidas espirituosas sin alcohol.",
+    sabbatical_desc1: "Exploración de Australia urbana y regional con perspectiva intercultural.",
+    sabbatical_desc2: "Trabajo en tostado de café, ganadería y como chef.",
+    sabbatical_desc3: "Aprendizaje autodidacta en desarrollo web full-stack, diseño de apps, micocultura y destilación.",
+    sabbatical_desc4: "Desarrollo de alternativas de bebidas espirituosas sin alcohol.",
 
     researcher_title: "Investigador — Powall",
     researcher_location: "Delft, NL • Ene 2022 – Sep 2023",
-    researcher_desc1: "I+D en recubrimientos por deposición atómica de capas para aplicaciones energéticas.",
-    researcher_desc2: "Realizó experimentos en múltiples proyectos de investigación.",
-    researcher_desc3: "Entrenó a pasantes y capacitó a nuevos colegas.",
+    researcher_desc1: "I+D en recubrimientos por deposición atómica para aplicaciones energéticas.",
+    researcher_desc2: "Ejecución de experimentos en múltiples proyectos de investigación.",
+    researcher_desc3: "Formación de pasantes y nuevos colegas.",
 
     research_intern_vu_title: "Pasantía de Investigación — Vrije Universiteit Amsterdam",
     research_intern_vu_location: "Ámsterdam, NL • Ago 2019 – Ago 2020",
-    research_intern_vu_desc1: "Pasantía enfocada en la síntesis total de (-)Perophoramidine.",
+    research_intern_vu_desc1: "Investigación sobre la síntesis total de (-)Perophoramidine.",
+    research_intern_vu_desc2: "Enfoque en reacciones en cascada para sistemas cíclicos.",
 
     research_intern_akzo_title: "Pasantía de Investigación — AkzoNobel",
     research_intern_akzo_location: "Sassenheim, NL • Ago 2016 – Ago 2017",
     research_intern_akzo_desc1: "Síntesis de resinas alquídicas tixotrópicas.",
     research_intern_akzo_desc2: "Estudio de factores que afectan la reología.",
-    research_intern_akzo_desc3: "Desarrollo de resinas alternativas para formulaciones de pintura.",
+    research_intern_akzo_desc3: "Desarrollo de resinas alternativas.",
+    research_intern_akzo_desc4: "Una formulación escalada a producción comercial.",
 
     research_intern_bunz_title: "Pasantía de Investigación — Bunz Group, Universidad de Heidelberg",
     research_intern_bunz_location: "Heidelberg, Alemania • Ene 2023 – Abr 2023",
-    research_intern_bunz_desc1: "Síntesis de diversos N-Heteroacenos para materiales de transporte electrónico.",
+    research_intern_bunz_desc1: "Síntesis de N-Heteroacenos para materiales de transporte electrónico.",
 
     msc_title: "MSc Química Orgánica / Diseño Molecular",
-    msc_location: "Universidad de Amsterdam • Ámsterdam, NL • Feb 2018 – Jul 2021",
+    msc_location: "Universidad de Ámsterdam • 2018 – 2021",
     bsc_title: "BSc Química",
-    bsc_location: "Hogeschool Leiden • Leiden, NL • Sept 2013 – Jun 2017",
-    propedeuse_title: "Propedeuse Universidad de Aruba",
-    propedeuse_location: "Oranjestad, Aruba • Sept 2012 – Jun 2013",
+    bsc_location: "Hogeschool Leiden • 2013 – 2017",
+    propedeuse_title: "Propedeuse Finanzas y Economía",
+    propedeuse_location: "Universidad de Aruba • 2012 – 2013",
 
-    programming: "Desarrollo Web Front-End y Back-End, React, Node.js, SQL, Git, APIs",
+    chemistry: "Química Orgánica, Espectroscopía (NMR, IR, LC-MS, GC-MS), Voltametría Cíclica, Redacción Académica, Pensamiento Crítico.",
+    programming: "Desarrollo Web Full-Stack, React, Node.js, SQL, Git, APIs",
     languages: "Holandés (Nativo), Inglés (Nativo), Papiamento (Nativo), Español (Intermedio)",
-    hobbies: "Construcción de tablas de surf, Cocina, Fermentación, Elaboración de cerveza, Fermentación Koji, Permacultura, Micología"
+    hobbies: "Construcción de tablas de surf, Cocina, Fermentación, Elaboración de cerveza, Permacultura, Micología"
   }
 };
 
-
-function setLanguage(lang) {
-  document.querySelectorAll("[data-i18n]").forEach(el => {
-    const key = el.dataset.i18n;
-    if (translations[lang] && translations[lang][key]) {
-      el.textContent = translations[lang][key];
-    }
-  });
-
-  document.querySelectorAll(".lang-switch button").forEach(btn => {
-    btn.classList.toggle("active", btn.dataset.lang === lang);
-  });
-
-  localStorage.setItem("lang", lang);
-}
-
-// Button click handlers
 document.querySelectorAll(".lang-switch button").forEach(button => {
   button.addEventListener("click", () => {
-    setLanguage(button.dataset.lang);
+    const lang = button.dataset.lang;
+    if (translations[lang]) {
+      document.querySelectorAll("[data-i18n]").forEach(el => {
+        const key = el.dataset.i18n;
+        el.textContent = translations[lang][key];
+      });
+      document.querySelectorAll(".lang-switch button").forEach(btn => btn.classList.remove("active"));
+      button.classList.add("active");
+    }
   });
 });
 
-// Load saved language
-const savedLang = localStorage.getItem("lang") || "en";
-setLanguage(savedLang);
+// Initialize in English on load
+setTimeout(() => document.querySelector(".lang-switch button[data-lang='en']").click(), 0);
 </script>
 
 </body>
 </html>
-
-
-
-
