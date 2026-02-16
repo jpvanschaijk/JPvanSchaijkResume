@@ -125,6 +125,36 @@ ul.contact img {
   height: 1.3em;
 }
 
+
+
+/* ================= SUMMARY SECTION ================= */
+.container h2[data-i18n="summary_title"] {
+  font-size: 1.8rem;       /* Slightly smaller than main header for hierarchy */
+  font-weight: 600;
+  margin-bottom: 0.8em;
+  color: #333333;          /* Matches typical resume text color */
+}
+
+.container .entry p[data-i18n="summary_text"] {
+  font-size: 1rem;         /* Matches body text */
+  line-height: 1.6;        /* Comfortable readability */
+  color: #555555;          /* Slightly lighter than header for contrast */
+  margin-bottom: 1.2em;
+  max-width: 800px;        /* Keeps lines from stretching too long */
+}
+
+.container .entry {
+  padding: 0 em 0;        /* Vertical spacing for separation */
+}
+
+@media (max-width: 768px) {
+  .container .entry p[data-i18n="summary_text"] {
+    font-size: 0.95rem;    /* Slightly smaller on mobile */
+    line-height: 1.5;
+    max-width: 100%;
+  }
+}
+
 /* =========================
    Container
 ========================= */
@@ -279,3 +309,4 @@ footer {
     font-size: 1.3rem;
   }
 }
+
