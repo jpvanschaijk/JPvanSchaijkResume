@@ -356,7 +356,9 @@ ul.contact a:hover {
   padding: 0 2rem 2.5rem;
 
 }
-
+header.resume-header + .container {
+  padding-top: 2.5rem;
+}
 
 .wrapper {
 
