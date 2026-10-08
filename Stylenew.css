@@ -270,7 +270,9 @@ header.resume-header::after {
   color: #111111;
 
 }
-
+.project-btn-hidden {
+display: none;
+}
 
 /* =========================================================
    CONTACT INFORMATION
